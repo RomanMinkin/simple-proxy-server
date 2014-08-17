@@ -58,3 +58,5 @@ Proxy.prototype.run = function(cb) {
         }
     });
 };
+
+exports = module.exports = Proxy;

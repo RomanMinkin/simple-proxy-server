@@ -14,7 +14,7 @@ Basic Usage
 ===================
 
 ```javascript
-var Proxy = require('simple-proxy-server')
+var Proxy = require('simple-proxy-server'),
     p = new Proxy(
         'https://www.domain.ru',     // target destination
         8080,                        // port to listen on
